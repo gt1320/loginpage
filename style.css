@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(bg.gif);
+    background-size: cover;
+    position: absolute;
+}
+a{
+    color: rgb(223, 177, 235);
+}
+
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: rgba(130, 72, 143, 0.4);
+    padding: 5px;
+    border-radius: 30px ;
+    overflow: hidden;
+}
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #2e0230;
+    border-radius: 30px ;
+}
+.toggle-btn{
+    padding: 10px 29px;
+    cursor: pointer;
+    color:rgb(237, 190, 243);
+    font-size: medium;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-family: 'Luckiest Guy', cursive;
+    
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 220px;
+    height: 100%;
+    background: linear-gradient(to right, #500853,#a30ba3);
+    border-radius: 30px;
+    transition: .5s;
+    
+}
+::placeholder { 
+    color: rgb(211, 183, 206);
+    opacity: 1; 
+  }
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{  
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 50px ;
+    border-left:0;
+    border-right: 0;
+    color: white;
+    font-size: 13px;
+    border-top: black;
+    background: transparent;
+    
+}
+.submit-btn{
+    width: 50%;
+    padding: 10px 30px;
+    position: absolute;
+    top: 110%;
+    left: 40%;
+    margin: auto;
+    color:rgb(239, 220, 241);
+    background: linear-gradient(to right, #500853,#a30ba3);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-family: 'Luckiest Guy', cursive;
+}
+.register{
+    color: rgb(231, 187, 223);
+    position: relative;
+    margin-top: 0px;
+    margin-left: 31%;
+}
+.submit-btn:hover{
+    box-shadow: 0 0 20px 9px #2e0230, 0 0 20px 9px #2e0230;;
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+    left: 18%;
+    position: relative;
+    box-shadow: 0 0 20px 9px #440950e5;
+}
+
+span{
+    color: #777777;
+    font-size: 13px;
+    bottom: 30px;
+    left: 25%;
+    position: absolute;
+}
+
+.user{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: thistle;
+    box-shadow: 0 0 20px 9px #39143be5;
+}
+.pass{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    color: thistle;
+    box-shadow: 0 0 20px 9px #440950e5;
+}
+
+#Login{
+    left: 0px;
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-size: 250%
+    }
+    .main-block{
+        width: 75%;
+        margin: 0 0 0;
+    }
+    .form-box{
+        position:relative;
+    }
+   
+   .title{
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    body{
+        background-size: 240%
+    
+    }
+    .main-block{
+        width: 75%;
+        margin: 70px 0 0;
+    }
+    .form-box{
+        position: relative;
+    }
+    
+    .title{
+        padding: 0;
+    }
+}
